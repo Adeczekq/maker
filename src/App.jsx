@@ -10,7 +10,7 @@ import PricePanels from "./components/PricePanels";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="p-8 bg-background flex flex-col gap-10 h-full z-10 relative">
+    <div className="p-8 bg-background flex flex-col gap-10 h-full z-10 relative overflow-x-hidden">
       <NavBar />
       <div className="flex md:absolute md:mt-28 w-full justify-between -z-10">
         <img className="md:hidden" src={BgHero}></img>
